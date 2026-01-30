@@ -1,0 +1,61 @@
+{
+  "packageId": "app.vercel.cinema_discovery_app.twa",
+  "host": "cimema-discovery-app.vercel.app",
+  "name": "Cinema Discovery - Movie Browser",
+  "launcherName": "Cinema",
+  "display": "standalone",
+  "themeColor": "#3B82F6",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://cinema-discovery-app.vercel.app/icons/icon.svg",
+  "maskableIconUrl": "https://cinema-discovery-app.vercel.app/icons/icon.svg",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\Suz\\Documents\\Yehaa\\cinema-discovery-app\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Browse Movies",
+      "shortName": "Browse",
+      "url": "https://cinema-discovery-app.vercel.app/",
+      "chosenIconUrl": "https://cinema-discovery-app.vercel.app/icons/icon.svg"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://cinema-discovery-app.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    },
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://cinema-discovery-app.vercel.app/",
+  "minSdkVersion": 21,
+  "orientation": "portrait-primary",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
