@@ -1,6 +1,6 @@
 {
   "packageId": "app.vercel.cinema_discovery_app.twa",
-  "host": "cimema-discovery-app.vercel.app",
+  "host": "cinema-discovery-app.vercel.app",
   "name": "Cinema Discovery - Movie Browser",
   "launcherName": "Cinema",
   "display": "standalone",
@@ -18,29 +18,17 @@
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "C:\\Users\\Suz\\Documents\\Yehaa\\cinema-discovery-app\\android.keystore",
-    "alias": "android"
+    "alias": "android",
+    "keyPassword": "Suz@na91",
+    "keyStorePassword": "Suz@na91"
   },
   "appVersionName": "1",
   "appVersionCode": 1,
-  "shortcuts": [
-    {
-      "name": "Browse Movies",
-      "shortName": "Browse",
-      "url": "https://cinema-discovery-app.vercel.app/",
-      "chosenIconUrl": "https://cinema-discovery-app.vercel.app/icons/icon.svg"
-    }
-  ],
+  "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://cinema-discovery-app.vercel.app/manifest.json",
   "fallbackType": "customtabs",
-  "features": {
-    "playBilling": {
-      "enabled": true
-    },
-    "locationDelegation": {
-      "enabled": true
-    }
-  },
+  "features": {},
   "alphaDependencies": {
     "enabled": false
   },

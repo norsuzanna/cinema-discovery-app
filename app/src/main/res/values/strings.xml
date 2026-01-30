@@ -34,7 +34,7 @@
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
         \"target\": {
             \"namespace\": \"web\",
-            \"site\": \"https://cimema-discovery-app.vercel.app\"
+            \"site\": \"https://cinema-discovery-app.vercel.app\"
         }
     }]
     

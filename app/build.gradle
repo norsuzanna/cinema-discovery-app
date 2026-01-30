@@ -22,7 +22,7 @@ plugins {
 
 def twaManifest = [
     applicationId: 'app.vercel.cinema_discovery_app.twa',
-    hostName: 'cimema-discovery-app.vercel.app', // The domain being opened in the TWA.
+    hostName: 'cinema-discovery-app.vercel.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Cinema Discovery - Movie Browser', // The application name.
     launcherName: 'Cinema', // The name shown on the Android Launcher.
@@ -39,7 +39,7 @@ def twaManifest = [
     // - short_name: Shorter string used if |name| is too long.
     // - url: Absolute path of the URL to launch the app with (e.g '/create').
     // - icon: Name of the resource in the drawable folder to use as an icon.
-    shortcuts: [[name:'Browse Movies', short_name:'Browse', url:'https://cinema-discovery-app.vercel.app/', icon:'shortcut_0']],
+    shortcuts: [],
     // The duration of fade out animation in milliseconds to be played when removing splash screen.
     splashScreenFadeOutDuration: 300,
     generatorApp: 'bubblewrap-cli', // Application that generated the Android Project
@@ -207,10 +207,6 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    
-        implementation 'com.google.androidbrowserhelper:locationdelegation:1.1.2'
-    
-        implementation 'com.google.androidbrowserhelper:billing:1.1.0'
     
         implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.6.2'
     
