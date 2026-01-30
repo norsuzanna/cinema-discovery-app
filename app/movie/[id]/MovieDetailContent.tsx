@@ -24,7 +24,7 @@ interface MovieDetailContentProps {
 }
 
 export function MovieDetailContent({ movieId, initialMovie }: MovieDetailContentProps) {
-  const { data: movie = initialMovie, isLoading, error } = useMovieDetails(movieId);
+  const { data: movie = initialMovie, error } = useMovieDetails(movieId);
 
   useEffect(() => {
     if (movie) {
@@ -100,7 +100,7 @@ export function MovieDetailContent({ movieId, initialMovie }: MovieDetailContent
             <div>
               <h1 className="text-4xl font-bold text-foreground">{movie.title}</h1>
               {movie.tagline && (
-                <p className="mt-2 text-lg italic text-muted-foreground">"{movie.tagline}"</p>
+                <p className="mt-2 text-lg italic text-muted-foreground">&ldquo;{movie.tagline}&rdquo;</p>
               )}
             </div>
 

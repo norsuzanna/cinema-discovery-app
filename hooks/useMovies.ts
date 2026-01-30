@@ -1,7 +1,7 @@
 'use client';
 
 import { useQuery, useInfiniteQuery, UseQueryResult } from '@tanstack/react-query';
-import type { MoviesResponse, MovieDetails, SortOption } from '@/types';
+import type { MovieDetails, SortOption } from '@/types';
 import { tmdbClient } from '@/lib/tmdb-client';
 
 export function useMovies(sortBy: SortOption = 'release_date.desc') {

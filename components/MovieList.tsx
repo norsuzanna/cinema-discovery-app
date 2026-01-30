@@ -150,7 +150,7 @@ export function MovieList({ sortBy }: MovieListProps) {
 
       {!hasNextPage && movies.length > 0 && (
         <div className="py-8 text-center text-muted-foreground">
-          You've reached the end! 🎬
+          You&apos;ve reached the end! 🎬
         </div>
       )}
 

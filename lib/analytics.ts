@@ -25,7 +25,7 @@ class Analytics {
     }
 
     if (typeof window !== 'undefined' && 'gtag' in window) {
-      // @ts-ignore
+      // @ts-expect-error gtag is a global function injected by Google Analytics script
       window.gtag('event', event.event, {
         event_category: event.category,
         event_label: event.label,

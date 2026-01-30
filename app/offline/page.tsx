@@ -10,12 +10,12 @@ export default function OfflinePage() {
     <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-background px-4">
       <WifiOff className="h-24 w-24 text-muted-foreground" />
       <div className="text-center">
-        <h1 className="text-4xl font-bold text-foreground">You're Offline</h1>
+        <h1 className="text-4xl font-bold text-foreground">You&apos;re Offline</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          It looks like you've lost your internet connection.
+          It looks like you&apos;ve lost your internet connection.
         </p>
         <p className="mt-2 text-muted-foreground">
-          Don't worry, you can still browse cached movies!
+          Don&apos;t worry, you can still browse cached movies!
         </p>
       </div>
       <Link

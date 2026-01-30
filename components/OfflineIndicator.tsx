@@ -11,7 +11,7 @@ export function OfflineIndicator() {
   return (
     <div className="fixed bottom-4 left-1/2 z-50 flex -translate-x-1/2 items-center gap-2 rounded-full bg-destructive px-4 py-2 text-sm font-medium text-destructive-foreground shadow-lg animate-in slide-in-from-bottom-2">
       <WifiOff className="h-4 w-4" />
-      <span>You're offline</span>
+      <span>You&apos;re offline</span>
     </div>
   );
 }

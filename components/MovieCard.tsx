@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Star, Calendar } from 'lucide-react';
 import type { Movie } from '@/types';
-import { getImageURL, formatDate } from '@/lib/tmdb-client';
+import { getImageURL } from '@/lib/tmdb-client';
 import { cn, formatNumber, getRatingColor } from '@/lib/utils';
 
 interface MovieCardProps {
@@ -13,7 +13,6 @@ interface MovieCardProps {
 
 export function MovieCard({ movie }: MovieCardProps) {
   const imageUrl = getImageURL(movie.poster_path, 'w500');
-  const backdropUrl = getImageURL(movie.backdrop_path, 'w780');
   const rating = movie.vote_average.toFixed(1);
   const ratingColor = getRatingColor(movie.vote_average);
 
