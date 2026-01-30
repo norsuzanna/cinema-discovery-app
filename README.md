@@ -1,6 +1,7 @@
 # 🎬 Cinema Discovery PWA
 
 A modern Progressive Web App for discovering movies, built with Next.js 14, TypeScript, and Tailwind CSS.
+URL: https://cinema-discovery-app.vercel.app/
 
 ## 🚀 Quick Start
 ```bash
